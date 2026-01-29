@@ -1,0 +1,103 @@
+/* Basic styling for the website */
+
+body {
+    background-color: #f5f5dc;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #2c1810;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 12px 0;
+}
+
+p {
+    margin: 15px 0;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border: 3px solid #8b4513;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #2c1810;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8b4513;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #d2b48c;
+    text-align: center;
+    color: #2c1810;
+}
+
+
+.special {
+    background-color: #ffebcd;
+    margin-left: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-left: 2px solid #d21e1e;
+    border-bottom: 2px solid #d21e1e;
+
+}
+
+.highlight {
+    background-color: #28db21;
+    margin-right: 50px;
+    border-radius: 10px;
+
+}
+
+nav a:hover {
+    color: #3ca4d5;
+    font-weight: bold;
+}
+
+nav li :last-child {
+    margin-right: 0;
+    border: 3px solid #d12020;
+    border-radius: 10px;
+}
+
+nav li :first-child {
+    margin-left: 0;
+    border: 3px solid #d12020;
+    border-radius: 10px;
+}
